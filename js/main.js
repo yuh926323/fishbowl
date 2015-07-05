@@ -126,7 +126,7 @@ function update_fish(){ // 畫魚從新的一隻魚，畫回第一隻魚
 		if(fish_list.search(i)){
 			var object = fish_list.getElem(i);
 			object.AI();
-			object.setHungry(object.getHungry()-5);
+			object.setHungry(object.getHungry()-(int)Math.random()*5);
 			if(player.feed.feed.length == 0){
 				object.target.target = null;
 				object.target.index = -1;
