@@ -1,0 +1,39 @@
+<html>
+<body>
+<div id="ar"></div>
+<a href="javascript:void(0)" onclick="addDiv();return false" id="ar">新增div</a>
+<a href="javascript:void(0)" onclick="delText();return false" >刪除TEXT</a>
+<a href="javascript:void(0)" onclick="delDiv();return false" >刪除div</a>
+<a href="javascript:void(0)" onclick="playsound();return false" >播放</a>
+<script language="JavaScript" src="js/javascript-min-v1.8.3.js"></script>
+<script>
+	function addDiv(){
+		newDiv = document.createElement("div");
+		document.getElementById('ar').appendChild(newDiv);
+		newDiv.innerHTML = "<audio id='a0'><source src='media/click_treasure.mp3'></audio>";
+	}
+	function delDiv(){
+		var del = document.getElementById('ar').getElementsByTagName("div");
+		if(del.length > 0){
+			del[0].parentNode.removeChild(del[0]);
+		}
+	}
+	function delText(){
+		var del = document.getElementById('ar').getElementsByTagName("div");
+		for (i=0;i<del.length;i++){
+			del[i].innerHTML='';
+		}
+	}
+	function playsound(){
+		/*addDiv();
+		var audio = document.getElementById('a0');
+		audio.play();
+		delDiv();*/
+		var clickSound = new Audio('media/click_treasure.mp3');
+		clickSound.play();
+		clickSound.addEventListener('ended', function(){
+		}, false);
+	}
+</script>
+<body>
+</html>

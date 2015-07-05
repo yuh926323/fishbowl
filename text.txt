@@ -1,0 +1,12 @@
+4090A0
+157080
+
+rgba(getCHex('f5'),getCHex('eb'),getCHex('3c'),1.0)
+setFloatText("25px 'Play'", "000000", "center", "bottom", "123456", 232, 136, 232, 76, 60)
+
+魚可以 15 秒就飢餓一次，初始15秒不餓，餓到變成負值魚就會死亡。
+
+(temp_action >= 8 && temp_action <= 11) && (this.action >= 8 && this.action <= 10)) &&
+!((this.action >= 0 && this.action <= 2) && (temp_action >= 3 && temp_action <= 4)) &&
+!((this.action >= 3 && this.action <= 4) && (temp_action >= 0 && temp_action <= 2))
+

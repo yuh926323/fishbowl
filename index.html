@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="big5">
+		<title>FishBowl v1.7 beta</title>
+		<link rel="stylesheet" type="text/css" href="css/feedfish.css"/>
+	</head>
+	<body>
+		<div id="page">
+		<header>
+			FishBowl Fixed Version 1.7
+		</header>
+			<canvas id="game" width="800" height="600">
+				Sorry, your web browser does not support Canvas content.
+			</canvas>
+			<!--Try:<span id="debug"></span>-->
+		</div>
+		<footer>
+			<center>
+				Author: LongXiang Yang<br/>
+				Date: 2013/12/25 02:37
+			</center>
+		</footer>
+		<div id="audio"></div>
+		<!--jQuery必須比自己寫的JS還早載入才可使用-->
+		<script language="JavaScript" src="js/javascript-min-v1.8.3.js"></script>
+		<script language="JavaScript" src="js/path.js"></script>
+		<script language="JavaScript" src="js/lib.js"></script>
+		<script language="JavaScript" src="js/floattext.js"></script>
+		<script language="JavaScript" src="js/creatimage.js"></script>
+		<script language="JavaScript" src="js/fish.js"></script>
+		<script language="JavaScript" src="js/item.js"></script>
+		<script language="JavaScript" src="js/region.js"></script>
+		<script language="JavaScript" src="js/linklist.js"></script>
+		<script language="JavaScript" src="js/main.js"></script>
+	</body>
+	<script type="text/javascript">
+		/***********************************************
+		* Disable select-text script- c Dynamic Drive (www.dynamicdrive.com)
+		* This notice MUST stay intact for legal use
+		* Visit http://www.dynamicdrive.com/ for full source code
+		***********************************************/
+
+		//form tags to omit in NS6+:
+		var omitformtags=["input", "textarea", "select"]
+		omitformtags=omitformtags.join("|")
+		function disableselect(e){
+			if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1)
+			return false
+		}
+		function reEnable(){return true}
+		if (typeof document.onselectstart!="undefined")
+			document.onselectstart=new Function ("return false");
+		else{
+			document.onmousedown=disableselect;
+			document.onmouseup=reEnable;
+		}
+	</script>
+</html>

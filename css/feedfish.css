@@ -1,0 +1,63 @@
+html, body{
+	background: url(../img/title_bg.png) 50% 0 no-repeat, url(../img/bg_repeat.png) 50% 0 repeat-y #889ba7;
+	font-family: 'Reenie Beanie', serif; 
+	font-size: 60px;
+	margin: 0;
+	color: #111111;
+	-moz-user-select:none;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+canvas {
+	background: #5dadd9;
+}
+
+header {
+	height: 60px;
+	padding-top: 55px;
+	margin-bottom: 25px;
+	font-size: 60px;
+	text-shadow: 0 1px 0 rgba(200,200,200,.5);
+	color: #121;
+}
+footer {
+	font-size: 45px;
+	text-shadow: 0 1px 0 rgba(200,200,200,.5);
+	color: #121;
+}
+
+@font-face {
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Reenie Beanie'), local('ReenieBeanie'), url(http://themes.googleusercontent.com/static/fonts/reeniebeanie/v3/ljpKc6CdXusL1cnGUSamX_n8qdNnd5eCmWXua5W-n7c.woff) 
+
+format('woff');
+}
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play'), url(http://themes.googleusercontent.com/static/fonts/play/v3/-SXnV4mZjf4oh1IBw13WZw.woff) 
+
+format('woff');
+}
+
+#page {
+	width: 821px;
+	min-height: 800px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0 1px 5px rgba(60,60,60,.6);
+}
+
+#game{
+	position: relative;
+}
+
+#debug{
+	font-family: arial;
+	font-size: 30px;
+}

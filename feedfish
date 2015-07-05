@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2355" startPos="3746" endPos="3746" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\main.js">
+                <Fold line="110" />
+                <Fold line="139" />
+                <Fold line="173" />
+                <Fold line="202" />
+            </File>
+            <File firstVisibleLine="81" xOffset="50" scrollWidth="3003" startPos="3060" endPos="3060" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\lib.js">
+                <Fold line="9" />
+                <Fold line="22" />
+                <Fold line="165" />
+                <Fold line="172" />
+                <Fold line="191" />
+                <Fold line="194" />
+                <Fold line="216" />
+                <Fold line="230" />
+            </File>
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1273" startPos="499" endPos="511" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\item.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1023" startPos="155" endPos="155" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\region.js" />
+            <File firstVisibleLine="30" xOffset="0" scrollWidth="1882" startPos="9115" endPos="9115" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\fish.js">
+                <Fold line="51" />
+                <Fold line="169" />
+            </File>
+            <File firstVisibleLine="30" xOffset="0" scrollWidth="1508" startPos="1541" endPos="1541" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\creatimage.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3003" startPos="467" endPos="467" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\floattext.js" />
+        </mainView>
+        <subView activeIndex="3">
+            <File firstVisibleLine="0" xOffset="70" scrollWidth="872" startPos="645" endPos="645" selMode="0" lang="HTML" encoding="-1" filename="E:\Design\feedfish\index.html" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1730" startPos="141" endPos="147" selMode="0" lang="CSS" encoding="-1" filename="E:\Design\feedfish\css\feedfish.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="552" startPos="665" endPos="666" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\linklist.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="770" startPos="597" endPos="628" selMode="0" lang="Javascript" encoding="-1" filename="E:\Design\feedfish\js\path.js" />
+        </subView>
+    </Session>
+</NotepadPlus>
